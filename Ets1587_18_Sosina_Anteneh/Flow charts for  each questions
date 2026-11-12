@@ -1,0 +1,138 @@
+QUESTION 1: STUDENT COURSE TOTAL
+FLOWCHART
+                 ( START )
+                     |
+                     v
+          /-----------------------/
+         / Input Assignment,      /
+        / Midterm and Final Marks/
+         /-----------------------/
+                     |
+                     v
+          +-----------------------+
+          | Calculate Course      |
+          | Total = (Assignment   |
+          | * 0.20) + (Midterm    |
+          | * 0.30) + (Final      |
+          | * 0.50)               |
+          +-----------------------+
+                     |
+                     v
+                /-----------\\
+               < Total >= 50? >
+                \\-----------/
+                 /         \\
+              YES           NO
+               |             |
+               v             v
+        +-------------+  +-------------+
+        | Result =    |  | Result =    |
+        | PASS        |  | FAIL        |
+        +------+------+  +------+------+
+               |                |
+               +--------+-------+
+                        |
+                        v
+          /-----------------------/
+         / Display Course Total   /
+        / and Result             /
+         /-----------------------/
+                        |
+                        v
+                    ( END )
+
+QUESTION 2: ELECTRICITY BILL CALCULATION
+FLOWCHART
+                 ( START )
+                     |
+                     v
+          /-----------------------/
+         / Input Electricity      /
+        / Units Consumed         /
+         /-----------------------/
+                     |
+                     v
+                /-----------\\
+               <  Units > 50? >
+                \\-----------/
+                 /         \\
+              YES           NO
+               |             |
+               v             v
+      +----------------+  +----------------+
+      | Energy Charge  |  | Energy Charge  |
+      | = (50 * 1.50)  |  | = Units * 1.50 |
+      | + ((Units-50)  |  +-------+--------+
+      | * 2.00)        |          |
+      +-------+--------+          |
+              |                   |
+              +---------+---------+
+                        |
+                        v
+             +----------------------+
+             | Service Charge =     |
+             | 10.00 Birr           |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             | Total Bill = Energy  |
+             | Charge + Service     |
+             | Charge               |
+             +----------+-----------+
+                        |
+                        v
+          /-------------------------/
+         / Display Energy Charge,    /
+        / Service Charge and Total  /
+       / Electricity Bill          /
+        /-------------------------/
+                        |
+                        v
+                    ( END )
+
+QUESTION 3: TRIP SPEED AND FUEL COST
+FLOWCHART
+                 ( START )
+                     |
+                     v
+          /-------------------------/
+         / Input Distance, Hours,    /
+        / Minutes, Fuel Rate and     /
+       / Fuel Price                 /
+        /-------------------------/
+                     |
+                     v
+          +-------------------------+
+          | Calculate Total Time    |
+          | = Hours + Minutes / 60  |
+          +------------+------------+
+                       |
+                       v
+          +-------------------------+
+          | Calculate Average Speed |
+          | = Distance / Total Time |
+          +------------+------------+
+                       |
+                       v
+          +-------------------------+
+          | Calculate Fuel Used     |
+          | = Distance * Fuel Rate  |
+          | / 100                   |
+          +------------+------------+
+                       |
+                       v
+          +-------------------------+
+          | Calculate Fuel Cost     |
+          | = Fuel Used * Fuel Price|
+          +------------+------------+
+                       |
+                       v
+          /-------------------------/
+         / Display Total Time,       /
+        / Average Speed, Fuel Used  /
+       / and Fuel Cost              /
+        /-------------------------/
+                       |
+                       v
+                    ( END )
